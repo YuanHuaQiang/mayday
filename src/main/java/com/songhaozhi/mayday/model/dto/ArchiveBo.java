@@ -2,6 +2,7 @@ package com.songhaozhi.mayday.model.dto;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 
 import com.songhaozhi.mayday.model.domain.Article;
 

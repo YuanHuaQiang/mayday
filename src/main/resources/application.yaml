@@ -17,8 +17,8 @@ spring:
   datasource: 
          type: com.alibaba.druid.pool.DruidDataSource
          url: jdbc:mysql://127.0.0.1:3306/mayday?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-         username: mayday
-         password: Mayday!@#123.
+         username: root
+         password: 123456
          driver-class-name: com.mysql.jdbc.Driver
 mybatis: 
   typeAliasesPackage: com.songhaozhi.mayday.model.domain

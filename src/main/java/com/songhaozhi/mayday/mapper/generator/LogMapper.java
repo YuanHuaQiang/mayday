@@ -4,7 +4,9 @@ import com.songhaozhi.mayday.model.domain.Log;
 import com.songhaozhi.mayday.model.domain.LogExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface LogMapper {
 	long countByExample(LogExample example);
 
