@@ -33,6 +33,7 @@
 		<ehcache.version>3.6.3</ehcache.version>
 		<MDTool.version>1.2.1</MDTool.version>
 		<rome.version>1.0</rome.version>
+		<rocketmq-client-java-version>5.0.0</rocketmq-client-java-version>
 	</properties>
 
 	<dependencies>
@@ -150,6 +151,12 @@
 			<groupId>rome</groupId>
 			<artifactId>rome</artifactId>
 			<version>${rome.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-client-java</artifactId>
+			<version>${rocketmq-client-java-version}</version>
 		</dependency>
 	</dependencies>
 
